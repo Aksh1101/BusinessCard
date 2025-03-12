@@ -67,21 +67,25 @@ fun BusinessCard(){
         Text(text = "Android Developer",
             fontSize = 25.sp)
         Spacer(modifier = Modifier.padding(70.dp))
-        Row(modifier = Modifier.padding(10.dp),
+
+        Row(modifier = Modifier.padding(10.dp)
+            .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center) {
             Icon(imageVector = Icons.Default.Call,contentDescription = null)
             Spacer(modifier = Modifier.padding(horizontal = 13.dp))
             Text("+91 740XXXXXXX",
                 fontSize = 20.sp)
         }
-        Row(modifier = Modifier.padding(10.dp),
+        Row(modifier = Modifier.padding(10.dp)
+            .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center) {
             Icon(imageVector = Icons.Default.Share,contentDescription = null)
             Spacer(modifier = Modifier.padding(horizontal = 32.dp,))
             Text("@AndroidDev",
                 fontSize = 20.sp)
         }
-        Row(modifier = Modifier.padding(10.dp),
+        Row(modifier = Modifier.padding(10.dp)
+            .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center) {
             Icon(imageVector = Icons.Default.Email,contentDescription = null)
             Spacer(modifier = Modifier.padding(horizontal = 20.dp,))
